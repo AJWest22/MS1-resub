@@ -39,7 +39,7 @@
 #header-image {
     height: 35em;
     width: 100%;
-    background: url("images/header-image.jpg") no-repeat center center;
+    background: url("/images/header-image.jpg") no-repeat center center;
 }
 
 #header-text, #header-text h3 {
