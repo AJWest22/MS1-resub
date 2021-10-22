@@ -2,27 +2,65 @@
     height: 30%;
     position: relative;
     overflow-y: hidden;
-    background-color: black;
+    background-color: white;
 }
 
 #menu a {
-    color: white;
+    color: #30839f;
     margin: 1em;
 }
 
 #toggleMobileMenu {
-    background-color: black;
+    background-color: white;
 }
 
 #logo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #399cbd;
+    text-shadow: 1px 1px black;
     float: left;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin: 1em;
-    text-shadow: 2px 2px black;
 }
 
-h1 {
-    color: red;
+#header-outer {
+    height: 35em;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#header-image {
+    height: 35em;
+    width: 100%;
+    background: url("/images/header-image.jpg") no-repeat center center;
+}
+
+#header-text, #header-text h3 {
+    color: #ffffff;
+}
+
+#header-text, #header-text h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#header-text {
+    font-size: 150%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px black;
+
+    width: 30em;
+    height: 20em;
+
+    padding-top: 12em;
+    padding-right: 3em;
+
+    bottom: 30px;
+    left: 150px;
+
+    position: absolute;
+
 }
