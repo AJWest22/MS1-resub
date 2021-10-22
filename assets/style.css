@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 #header-section {
     height: 30%;
     position: relative;
@@ -6,7 +10,8 @@
 }
 
 #menu a {
-    color: #30839f;
+    font-family: Poppins;
+    color: #71bbd4;
     margin: 1em;
 }
 
@@ -15,8 +20,8 @@
 }
 
 #logo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #399cbd;
+    font-family: Anton;
+    color: #62b4cf;
     text-shadow: 1px 1px black;
     float: left;
     text-transform: uppercase;
@@ -34,7 +39,7 @@
 #header-image {
     height: 35em;
     width: 100%;
-    background: url("/images/header-image.jpg") no-repeat center center;
+    background: url("images/header-image.jpg") no-repeat center center;
 }
 
 #header-text, #header-text h3 {
@@ -47,7 +52,7 @@
 }
 
 #header-text {
-    font-size: 150%;
+    font-size: 180%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 4px;
     text-shadow: 2px 2px black;
@@ -58,8 +63,8 @@
     padding-top: 12em;
     padding-right: 3em;
 
-    bottom: 30px;
-    left: 150px;
+    bottom: 2px;
+    left: 5em;
 
     position: absolute;
 
