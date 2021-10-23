@@ -94,7 +94,13 @@
     align-items: center;
 }
 
+#about-text {
+    float: left;
+}
+
 #swimmer {
-    height: 20px;
-    max-width: 50%;
+    height: 30em;
+    max-width: 70%;
+    float: right;
+    overflow: hidden;
 }
