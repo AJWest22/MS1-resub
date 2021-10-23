@@ -15,8 +15,16 @@
     margin: 1em;
 }
 
+.navbar-toggler {
+    background-color: #71bbd4;
+}
+
 #toggleMobileMenu {
     background-color: white;
+}
+
+#toggleMobileMenu a {
+    color: #71bbd4;
 }
 
 #logo {
