@@ -89,25 +89,32 @@
 
 #about-header {
     font-family: Anton;
+    font-size: 30%;
     letter-spacing: 2px;
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-#about-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 #about-text {
+    float: left;
     margin-left: 2em;
 }
 
 #swimmer {
     height: 30em;
     width: 65%;
-    margin-left: 25em;
     overflow: hidden;
+    float: right;
+}
+
+@media screen and (max-width: 943px) {
+
+    #about-text {
+        margin-left: 10em;
+    }
+
+    #swimmer {
+        width: auto;
+    }
 }
