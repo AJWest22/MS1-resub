@@ -92,8 +92,8 @@
     font-size: 30%;
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 5em;
 }
 
 #about-text {
@@ -103,7 +103,7 @@
 
 #swimmer {
     height: 30em;
-    width: 65%;
+    width: 50%;
     overflow: hidden;
     float: right;
 }
