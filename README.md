@@ -7,3 +7,7 @@ https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&c
 <details><summary>Screenshot of header image displaying on the deployed website:</summary>
   <img src="images/header-image-on-deployed.png">
 </details>
+
+<details><summary>Screenshot of header image displaying on the deployed website:</summary>
+  <img src="images/excess-spacing.png">
+</details>
