@@ -47,7 +47,6 @@
 #header-image {
     height: 35em;
     width: 100%;
-    background: url('https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center center no-repeat;
 }
 
 #header-text, #header-text h3 {
@@ -92,7 +91,7 @@
     font-size: 30%;
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 5em;
     margin-bottom: 5em;
 }
 
