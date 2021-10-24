@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 #header-section {
@@ -28,9 +28,9 @@
 }
 
 #logo {
-    font-family: Anton;
+    font-family: Quicksand;
     color: #62b4cf;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px white;
     float: left;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -95,9 +95,15 @@
     margin-bottom: 5em;
 }
 
-#about-text {
+#left-container {
+    text-align: center;
     float: left;
-    margin-left: 2em;
+    width: 40%;
+    margin-left: 5em;
+}
+
+#about-text {
+    width: 100%;
 }
 
 #swimmer {
@@ -123,6 +129,7 @@
         width: 30em;
         height: 25em;
         
+        margin: 0 auto;
         padding-top: 5px;
         padding-right: 2em;
     
@@ -141,8 +148,9 @@
         margin-right: 3em;
     }
 
-    #about-text {
-        margin-left: 10em;
+    #left-container {
+        text-align: center;
+        width: 65%;
     }
 
     #swimmer {

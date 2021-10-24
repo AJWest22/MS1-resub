@@ -8,6 +8,6 @@ https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&c
   <img src="images/header-image-on-deployed.png">
 </details>
 
-<details><summary>Screenshot of header image displaying on the deployed website:</summary>
+<details><summary>Screenshot of where excess sppacing has come from just below the hero image:</summary>
   <img src="images/excess-spacing.png">
 </details>
