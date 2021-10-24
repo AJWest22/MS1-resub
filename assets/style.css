@@ -106,7 +106,7 @@
 }
 
 #about-header {
-    font-family: Anton;
+    font-family: Impact;
     font-size: 30%;
     letter-spacing: 2px;
     text-align: center;
@@ -135,7 +135,8 @@
 }
 
 #squads-header {
-    font-family: Anton;
+    font-family: Impact;
+    letter-spacing: 1px;
     align-items: center;
 }
 
@@ -152,7 +153,8 @@
 }
 
 .squads h4 {
-    font-family: Anton;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 943px) {
