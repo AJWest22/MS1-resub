@@ -47,6 +47,19 @@
 #header-image {
     height: 35em;
     width: 100%;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 #header-text, #header-text h3 {
@@ -158,11 +171,7 @@
 
     #left-container {
         text-align: center;
-        width: 50%;
-    }
-
-    #about-text {
-        text-align: center;
+        width: 60%;
     }
 
     #swimmer {
