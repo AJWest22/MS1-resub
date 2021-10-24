@@ -134,10 +134,6 @@
     float: right;
 }
 
-#squads-header div {
-    margin-top: 15em;
-}
-
 #squads-header {
     font-family: Anton;
     align-items: center;
@@ -200,6 +196,23 @@
     }
 
     #swimmer {
+        width: 100%;
+    }
+
+    #squads-header {
+        text-align: center;
+        margin-top: 100em; /* used to position squads below swimmer image*/
+    }
+
+    #squads {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 3em; /*used to position squads section below swimmer image on mobile*/
+    }
+
+    .squads {
+        text-align: center;
         width: 100%;
     }
 }
