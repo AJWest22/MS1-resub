@@ -134,6 +134,31 @@
     float: right;
 }
 
+#squads-header div {
+    margin-top: 15em;
+}
+
+#squads-header {
+    font-family: Anton;
+    align-items: center;
+}
+
+#squads {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.squads {
+    text-align: center;
+    width: 33%;
+    margin-top: 5em;
+}
+
+.squads h4 {
+    font-family: Anton;
+}
+
 @media screen and (max-width: 943px) {
 
     #header-image {
