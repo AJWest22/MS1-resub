@@ -161,6 +161,10 @@
         width: 50%;
     }
 
+    #about-text {
+        text-align: center;
+    }
+
     #swimmer {
         width: 100%;
     }
