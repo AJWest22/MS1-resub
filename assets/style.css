@@ -79,6 +79,7 @@
 
 #intro-text {
     font-family: Poppins;
+    font-size: 14px;
     text-align: center;
     line-height: 2em;
     margin-top: 2em;
@@ -109,6 +110,7 @@
 #about-text {
     font-family: Poppins;
     font-size: 14px;
+    line-height: 2em;
     width: 100%;
 }
 
