@@ -148,6 +148,9 @@
 }
 
 .squads {
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
     text-align: center;
     width: 33%;
     margin-top: 5em;
@@ -155,6 +158,7 @@
 
 .squads h4 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px black;
     letter-spacing: 1px;
 }
 
