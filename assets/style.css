@@ -157,6 +157,24 @@
     letter-spacing: 1px;
 }
 
+@media screen and (max-width: 1396px) {
+
+    #squads {
+        margin-top: 200px;
+        align-items: center;
+    }
+
+    #squads-header {
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .squads {
+        width: 33%;
+        margin-top: 2em;
+    }
+}
+
 @media screen and (max-width: 943px) {
 
     #header-image {
