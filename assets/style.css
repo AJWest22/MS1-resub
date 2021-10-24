@@ -86,13 +86,17 @@
     margin-right: 3em;
 }
 
+#about-section {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 #about-header {
     font-family: Anton;
     font-size: 30%;
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-bottom: 8em;
 }
 
 #left-container {
