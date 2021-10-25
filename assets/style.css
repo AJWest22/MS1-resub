@@ -232,7 +232,7 @@
 #fitness-squads {
     font-family: impact;
     text-align: center;
-    margin-bottom: 50em;
+    
 }
 
 #fitness-image {
@@ -240,6 +240,7 @@
     width: 100%;
     margin-left: 13px;
 }
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
