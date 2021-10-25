@@ -264,6 +264,10 @@
         width: 60%;
     }
 
+    #about-text {
+        margin-left: 2m;
+    }
+
     #swimmer {
         width: 100%;
     }
