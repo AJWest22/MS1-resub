@@ -245,6 +245,11 @@
     text-align: center;
 }
 
+#table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
