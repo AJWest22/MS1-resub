@@ -193,6 +193,15 @@
     background-color: #62b4cf;
 }
 
+.squads3 {
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: center;
+    width: 33%;
+    margin-top: 5em;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
