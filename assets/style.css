@@ -221,6 +221,7 @@
     text-align: center;
     width: 50%;
     margin-top: 5em;
+    margin-bottom: 2em;
 }
 
 .squads4 h4{
@@ -229,10 +230,8 @@
     letter-spacing: 1px;
 }
 
-#fitness-squads {
-    font-family: impact;
-    text-align: center;
-    
+#red-squad {
+    margin-bottom: 3em;
 }
 
 #fitness-image {
