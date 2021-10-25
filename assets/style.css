@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 
 #header-section {
     height: 30%;
@@ -107,6 +108,7 @@
 
 #about-header {
     font-family: Impact;
+    font-weight: bold;
     font-size: 30%;
     letter-spacing: 2px;
     text-align: center;
@@ -157,7 +159,7 @@
 }
 
 .squads h4 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Anton;
     text-shadow: 1px 1px black;
     letter-spacing: 1px;
 }
@@ -179,7 +181,7 @@
 }
 
 .squads2 h4{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Anton;
     text-shadow: 1px 1px black;
     letter-spacing: 1px;
 }
@@ -233,7 +235,7 @@
 
     #header-text {
         font-size: 100%;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Anton;
         letter-spacing: 4px;
         text-shadow: 2px 2px black;
     
