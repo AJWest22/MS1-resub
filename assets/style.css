@@ -248,14 +248,19 @@
 #table {
     margin-left: auto;
     margin-right: auto;
+    background-color: #62b4cf;
 }
 
 .headers {
+    font-family: Poppins;
+    color: white;
     margin: 1em;
     padding-right: 1em;
 }
 
 .training {
+    font-family: Poppins;
+    color: white;
     padding-right: 1em;
     padding-bottom: 1em;
 }
