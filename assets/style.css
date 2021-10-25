@@ -257,6 +257,7 @@
 
 .training {
     padding-right: 1em;
+    padding-bottom: 1em;
 }
 
 @media screen and (max-width: 1396px) {
