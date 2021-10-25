@@ -202,6 +202,12 @@
     margin-top: 5em;
 }
 
+.squads3 h4{
+    font-family: Anton;
+    text-shadow: 1px 1px black;
+    letter-spacing: 1px;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
