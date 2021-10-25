@@ -254,6 +254,7 @@
 .headers {
     font-family: Poppins;
     color: white;
+    text-shadow: 1px 1px black;
     margin: 1em;
     padding-right: 1em;
 }
@@ -261,6 +262,7 @@
 .training {
     font-family: Poppins;
     color: white;
+    text-shadow: 1px 1px black;
     padding-right: 1em;
     padding-bottom: 1em;
 }
