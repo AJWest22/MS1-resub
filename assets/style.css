@@ -446,4 +446,8 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    .headers {
+        padding-right: 0px;
+    }
 }
