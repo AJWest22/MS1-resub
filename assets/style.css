@@ -250,6 +250,11 @@
     margin-right: auto;
 }
 
+.headers {
+    margin: 1em;
+    padding-right: 1em;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
