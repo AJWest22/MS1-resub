@@ -255,6 +255,10 @@
     padding-right: 1em;
 }
 
+.training {
+    padding-right: 1em;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
