@@ -15,3 +15,5 @@ HEADER IMAGE MAY NOT ALWAYS SHOW AND EXCESS SPACING IN HEADER ON MOBILE
 </details>
 
 Text not centered on mobile, not sure why this is.
+
+Mention why fitness squads was rmeoved (it was placed below the red squad text and image, z-index, position relative and static where used to try to correct it.)
