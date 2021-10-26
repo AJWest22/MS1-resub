@@ -472,12 +472,12 @@ button {
 
     #contact-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
     }
 
     #contact-image {
-        width: 100%;
+        width: 150%;
     }
 
     #footer {
