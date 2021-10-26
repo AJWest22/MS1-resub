@@ -365,6 +365,7 @@ button {
     font-family: Poppins;
     font-size: 20px;
     color: white;
+    text-shadow: 1px 1px black;
     text-align: center;
     padding: 2em;
 }
