@@ -380,7 +380,6 @@ button {
     width: 18%;
     margin: 2em;
     margin-top: 8em !important;
-    padding: 1.5em;
     padding-top: 5em;
     padding-bottom: 5em;
     background-color: rgba(0, 0, 0, 0.19);
@@ -485,6 +484,24 @@ button {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    #footer div {
+        width: 18%;
+        margin-top: 8em !important;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        margin: 0 auto; 
+        background-color: rgba(0, 0, 0, 0.19);
+        position: relative;
+        align-items: center;
+    }
+
+    #footer h2 {
+        font-family: Poppins;
+        font-size: 12px;
+        color: white;
+        text-shadow: 1px 1px black;
     }
 }
 
@@ -624,6 +641,7 @@ button {
         flex-direction: row;
         justify-content: center;
         width: 100%;
+        text-align: center;
     }
 
     #footer div {
@@ -632,7 +650,6 @@ button {
         padding-top: 3em;
         padding-bottom: 3em;
         margin: 0 auto;
-        padding: 0px; 
         background-color: rgba(0, 0, 0, 0.19);
         position: relative;
     }
@@ -642,7 +659,6 @@ button {
         font-size: 12px;
         color: white;
         text-shadow: 1px 1px black;
-        text-align: center;
-        padding: 0 auto;
+        padding: 1em;
     }
 }
