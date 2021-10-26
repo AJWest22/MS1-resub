@@ -18,6 +18,8 @@ HEADER IMAGE MAY NOT ALWAYS SHOW AND EXCESS SPACING IN HEADER ON MOBILE
   <img src="images/squad-text-bug.png">
 </details>
 
+Instagram not centered in div in footer, not sure why this is, its something to do with the padding mentioned in the #footer h2 in the css on desktop, but it is set to "text-align: center" in both, so should be centered but isn't.
+
 Text not centered on mobile, not sure why this is.
 
 Mention why fitness squads was rmeoved (it was placed below the red squad text and image, z-index, position relative and static where used to try to correct it.)
