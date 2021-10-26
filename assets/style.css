@@ -256,6 +256,7 @@
 #timetable {
     font-family: Anton;
     color: #62b4cf;
+    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -297,6 +298,7 @@ table, th, td {
 #contact {
     font-family: Anton;
     color:#62b4cf;
+    letter-spacing: 1px;
     text-align: center;
     margin-top: 3em;
 }
@@ -347,6 +349,8 @@ button {
 
 #footer-text {
     font-family: Anton;
+    color: #62b4cf;
+    letter-spacing: 1px;
     text-align: center;
     margin: 1.5em;
 }
@@ -360,6 +364,7 @@ button {
 #footer h2 {
     font-family: Poppins;
     font-size: 20px;
+    color: white;
     text-align: center;
     padding: 2em;
 }
@@ -372,9 +377,11 @@ button {
 
 #footer div {
     width: 18%;
-    float: left;
-    padding: 1.5em;
     margin: 2em;
+    margin-top: 8em !important;
+    padding: 1.5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     background-color: rgba(0, 0, 0, 0.19);
     position: relative;
 }
