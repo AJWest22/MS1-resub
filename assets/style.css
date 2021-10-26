@@ -351,6 +351,11 @@ button {
     margin: 1.5em;
 }
 
+#footer-image {
+    height: 35em;
+    width: 100%;
+}
+
 #footer {
     display: flex;
     flex-direction: row;
@@ -362,6 +367,11 @@ button {
     font-size: 20px;
     text-align: center;
     padding: 2em;
+}
+
+#footer div {
+    width: 18%;
+    background-color: rgba(0, 0, 0, 0.19);
 }
 
 @media screen and (max-width: 1396px) {
