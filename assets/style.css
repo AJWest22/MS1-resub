@@ -297,6 +297,7 @@ table, th, td {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 #contact-image {
@@ -304,6 +305,10 @@ table, th, td {
     width: 100%;
 }
 
+#form {
+    width: 50%;
+    margin: 0 auto;
+}
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
@@ -377,6 +382,12 @@ table, th, td {
 
     #fitness-image {
         margin: 0 auto;
+    }
+
+    #contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -494,6 +505,12 @@ table, th, td {
 
     .headers {
         padding-right: 15px;
+    }
+
+    #contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
