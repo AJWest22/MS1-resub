@@ -306,17 +306,39 @@ table, th, td {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #62b4cf;
 }
 
 #contact-image {
     height: 30em;
-    width: 100%;
+    width: 150%;
 }
 
 #form {
     width: 50%;
     margin: 0 auto;
-    margin-left: 25em;
+    margin-left: 20em;
+}
+
+.form-field {
+    margin-bottom: 1.5em;
+}
+
+.form-label {
+    font-family: Poppins;
+    color: white;
+    border-radius: 25px;
+}
+
+.field {
+    border-radius: 25px;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+    background-color: white;
 }
 
 @media screen and (max-width: 1396px) {
@@ -398,6 +420,10 @@ table, th, td {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #contact-image {
+        width: 100%;
     }
 }
 
@@ -523,9 +549,12 @@ table, th, td {
         justify-content: center;
     }
 
-    #form {
-        width: 50%;
-        margin: 0 auto;
+    #contact-image {
+        width: 100%;
     }
 
+    #form {
+        width: 100%;
+        margin: 0 auto;
+    }
 }

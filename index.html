@@ -412,23 +412,22 @@
         <div>
             <img id="contact-image" src="images/contact-image.jpeg">
         </div>
-        <div id="form">
+        <div id="form" action="" method="POST">
             <form>
                 <div class="form-field">
                     <label for="name" class="form-label">Name:</label><br>
-                    <input type="text" id="name" name="name" required><br>
+                    <input type="text" id="name" class="field" name="name" required><br>
                 </div>
                 <div class="form-field">
                     <label for="email" class="form-label">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br>
+                    <input type="email" id="email" class="field" name="email" required><br>
                 </div>
                 <div class="form-field">
-                    <label for="" class="form-label">Questions:</label><br>
-                    <textarea rows="8" cols="50"></textarea>><br>
+                    <label for="" class="form-label">Message:</label><br>
+                    <textarea class="field" rows="5" cols="40" id="message"></textarea>><br>
                 </div>
                 <div class="form-field">
-                    <label for="submit" class="form-label">Send</label><br>
-                    <input type="submit" id="submit" name="submit"><br>
+                    <button class="form-label">Send</button>
                 </div>
             </form>
         </div>
