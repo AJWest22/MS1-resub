@@ -354,12 +354,7 @@ button {
 #footer-image {
     height: 35em;
     width: 100%;
-}
-
-#footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    position: absolute;
 }
 
 #footer h2 {
@@ -369,9 +364,19 @@ button {
     padding: 2em;
 }
 
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #footer div {
     width: 18%;
+    float: left;
+    padding: 1.5em;
+    margin: 2em;
     background-color: rgba(0, 0, 0, 0.19);
+    position: relative;
 }
 
 @media screen and (max-width: 1396px) {
@@ -457,6 +462,12 @@ button {
 
     #contact-image {
         width: 100%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -589,5 +600,15 @@ button {
     #form {
         width: 100%;
         margin: 0 auto;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footer div {
+        width: 20%;
     }
 }
