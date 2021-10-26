@@ -14,6 +14,10 @@ HEADER IMAGE MAY NOT ALWAYS SHOW AND EXCESS SPACING IN HEADER ON MOBILE
   <img src="images/excess-spacing.png">
 </details>
 
+<details><summary>Screenshot of Performance Squads text can be seen out of its section:</summary> (margin and padding and posiitoning were used to  attempt to correct it)
+  <img src="images/squad-text-bug.png">
+</details>
+
 Text not centered on mobile, not sure why this is.
 
 Mention why fitness squads was rmeoved (it was placed below the red squad text and image, z-index, position relative and static where used to try to correct it.)

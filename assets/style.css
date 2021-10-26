@@ -103,7 +103,7 @@
 
 #about-section {
     margin-top: 3em;
-    margin-bottom: 3em;
+    text-align: center;
 }
 
 #about-header {
@@ -135,6 +135,10 @@
     width: 50%;
     overflow: hidden;
     float: right;
+}
+
+#squad-section {
+    align-items: center;
 }
 
 #squads-header {
