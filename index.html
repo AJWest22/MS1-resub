@@ -414,12 +414,22 @@
         </div>
         <div id="form">
             <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email"><br>
-                <label for="submit">Send</label><br>
-                <input type="submit" id="submit" name="submit"><br>
+                <div class="form-field">
+                    <label for="name" class="form-label">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                </div>
+                <div class="form-field">
+                    <label for="email" class="form-label">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+                <div class="form-field">
+                    <label for="" class="form-label">Questions:</label><br>
+                    <textarea rows="8" cols="50"></textarea>><br>
+                </div>
+                <div class="form-field">
+                    <label for="submit" class="form-label">Send</label><br>
+                    <input type="submit" id="submit" name="submit"><br>
+                </div>
             </form>
         </div>
     </section>

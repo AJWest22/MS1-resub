@@ -316,7 +316,9 @@ table, th, td {
 #form {
     width: 50%;
     margin: 0 auto;
+    margin-left: 25em;
 }
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
@@ -519,6 +521,11 @@ table, th, td {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #form {
+        width: 50%;
+        margin: 0 auto;
     }
 
 }
