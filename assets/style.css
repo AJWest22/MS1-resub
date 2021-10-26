@@ -293,6 +293,17 @@ table, th, td {
     margin-top: 3em;
 }
 
+#contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contact-image {
+    height: 30em;
+    width: 100%;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
