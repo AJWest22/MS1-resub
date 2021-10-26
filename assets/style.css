@@ -661,5 +661,6 @@ button {
         color: white;
         text-shadow: 1px 1px black;
         padding: 1em;
+        padding-right: 1em !important;
     }
 }
