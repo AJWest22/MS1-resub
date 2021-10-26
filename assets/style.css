@@ -286,6 +286,13 @@ table, th, td {
     border-collapse: collapse;
 }
 
+#contact {
+    font-family: Anton;
+    color:#62b4cf;
+    text-align: center;
+    margin-top: 3em;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
