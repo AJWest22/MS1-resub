@@ -357,6 +357,13 @@ button {
     justify-content: center;
 }
 
+#footer h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    padding: 2em;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
