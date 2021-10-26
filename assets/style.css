@@ -345,6 +345,18 @@ button {
     margin-left: 20em;
 }
 
+#footer-text {
+    font-family: Anton;
+    text-align: center;
+    margin: 1.5em;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
