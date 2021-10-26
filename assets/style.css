@@ -109,6 +109,7 @@
 #about-header {
     font-family: Anton;
     font-weight: bold;
+    color: #62b4cf;
     font-size: 30%;
     letter-spacing: 2px;
     text-align: center;
@@ -138,6 +139,7 @@
 
 #squads-header {
     font-family: Anton;
+    color: #62b4cf;
     letter-spacing: 1px;
     align-items: center;
 }
@@ -156,10 +158,12 @@
     text-align: center;
     width: 33%;
     margin-top: 5em;
+    padding-bottom: 2em;
 }
 
 .squads h4 {
     font-family: Anton;
+    color: white;
     text-shadow: 1px 1px black;
     letter-spacing: 1px;
 }
@@ -168,21 +172,22 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #62b4cf;
 }
 
 .squads2 {
-    color: white;
+    color: black;
     font-family: Poppins;
     font-size: 14px;
     text-align: center;
     width: 33%;
     margin-top: 5em;
+    padding-bottom: 2em;
 }
 
 .squads2 h4{
     font-family: Anton;
-    text-shadow: 1px 1px black;
+    color: #62b4cf;
+    text-shadow: 1px 1px white;
     letter-spacing: 1px;
 }
 
@@ -200,6 +205,7 @@
     text-align: center;
     width: 33%;
     margin-top: 5em;
+    padding-bottom: 2em;
 }
 
 .squads3 h4{
@@ -226,7 +232,8 @@
 
 .squads4 h4{
     font-family: Anton;
-    color: black;
+    color: #62b4cf;
+    text-shadow: 1px 1px white;
     letter-spacing: 1px;
 }
 
@@ -242,13 +249,14 @@
 
 #timetable {
     font-family: Anton;
+    color: #62b4cf;
     text-align: center;
 }
 
 #table {
     margin-left: auto;
     margin-right: auto;
-    background-color: #62b4cf;
+    background-color: #1E90FF;
 }
 
 .headers {
