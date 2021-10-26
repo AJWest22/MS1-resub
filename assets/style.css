@@ -499,7 +499,7 @@ button {
 
     #footer h2 {
         font-family: Poppins;
-        font-size: 12px;
+        font-size: 16px;
         color: white;
         text-shadow: 1px 1px black;
         padding: 1em;
@@ -661,6 +661,6 @@ button {
         color: white;
         text-shadow: 1px 1px black;
         padding: 1em;
-        padding-right: 1em !important;
+        padding-right: 1.5em !important;
     }
 }
