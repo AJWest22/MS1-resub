@@ -286,6 +286,14 @@ table, th, td {
     border-collapse: collapse;
 }
 
+.squad-table {
+    font-family: Anton;
+    color:#62b4cf;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 #contact {
     font-family: Anton;
     color:#62b4cf;
