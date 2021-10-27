@@ -18,6 +18,21 @@ HEADER IMAGE MAY NOT ALWAYS SHOW AND EXCESS SPACING IN HEADER ON MOBILE
   <img src="images/squad-text-bug.png">
 </details>
 
+<details><summary>Screenshot of Performance Squads text can be seen out of its section:</summary> (margin and padding and posiitoning were used to  attempt to correct it)
+  <img src="images/squad-text-bug.png">
+</details>
+
+<details><summary>Screenshot of the navbar on mobile prior to bug fix:</summary> (The navbar has moved from it original position along and the container it is in has also been moved I am unsure why this is, as I hadn't touched any code in the header)
+  <img src="images/original-spacing-error.png">
+</details>
+
+<details><summary>Screenshot of the nav bar after some padding was added and overflow was added</summary>
+  <img src="images/partially-fixed--spacing-error.png">
+</details>
+
+
+Toggle menu not centered on mobile: Overflow x and y were used to corect it and margin and padding. As well as align-content: center, and content-align: center on the div, and nav. 
+
 Instagram not centered in div in footer, not sure why this is, its something to do with the padding mentioned in the #footer h2 in the css on desktop, but it is set to "text-align: center" in both, so should be centered but isn't.
 
 Text not centered on mobile, not sure why this is.
