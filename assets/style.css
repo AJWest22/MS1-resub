@@ -508,6 +508,12 @@ button {
 
 @media screen and (max-width: 943px) {
 
+    .container {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 1em;
+    }
+
     #header-image {
         width: 100%;
         height: 16em;
