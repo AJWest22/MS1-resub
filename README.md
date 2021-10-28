@@ -31,7 +31,6 @@
 9. [Testing](#testing)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
-    3. [Python Validation](#python-validation)
     4. [Browser Compatibility](#browser-compatibility)
     5. [Devices Tested On](#devices-tested-on)
 
@@ -39,18 +38,16 @@
      1. [Icons](#icons)
      2. [Imagery](#imagery)
      3. [CSS Framework](#css-framework)
-     4. [JQuery Framework](#jquery-framework)
 
 
 
-## **Overview**
+## Overview
   - This site was created for MS1 for Code Institute, and is a work of fiction. Any name or place that is used is made up, and any relation to
   any real places is entirely coincidental.
   - The site's name is "Monson Swimming Club"
   - The source code for this site can be found on GitHub [here](https://github.com/AJWest22/MS1-resub).
   - The purpose for this site is to advertise for a successful swimming club in an area called Monson, and entise people to learn to swim as well
-  as try to draw already successful swimmers to a new club. 
-  - This site draws upon my experiences as a swimmer, and uses similar training elements to clubs I used to swim for and against.
+  as try to draw already successful swimmers to a new club.
 
 
 ## **Site Goals**
@@ -68,6 +65,24 @@
    - Ensure it is user friendly, and easy to use
    - Ensure the site leaves the user feeling positive after interacting with it
 
+### **User Stories**
+
+   - As a user I want to be able to see immediately the purpose of the site
+   - As a user I want the site to be easy to navigate
+   - As a user I want to be able to learn about the club in a structured manner
+   - As a user I want to be able to easily find key information like training times
+   - As a user I want a bit of site interaction with the owner, like a contact form for the site to feel official
+
+### **Siteowner Stories**
+
+  - As the siteowner I want a site that looks and feels good
+  - As the siteowner I want a site that is responsive
+  - As the siteowner I want the site to display the information in a easy to use way
+  - As the siteowner I want the site to have some form of user interactivity.
+  - As the siteowner the purpose of the site should be clear from the outset.
+
+
+## About the Site
 
 
   
