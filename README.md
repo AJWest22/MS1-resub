@@ -21,7 +21,6 @@
 
 4. [Code Used](#code-used)
     1. [Frameworks](#frameworks)
-    2. [Files Made](#files-made)
   
 5. [Design](#design)
     1. [Typography](#typography)
@@ -99,20 +98,28 @@
 
 ## About the Site
 
-The site is one page divided into 6 sections: A nav section, header section, about section, squads section, timetable section, contact section, annd a footer with social media links. 
-
-### Nav Section
-
-The navbar is a responsive menu. It uses the BootStrap collapsible dropdown menu on mobile, while on tablet, laptop and desktop, it expands and displays at the top of the site above the header image. It uses a white background and blue text set to the hexcode #71bbd4 to create a contrast between the blue text and the white background. It also represents Monson's blue logo and club colours.
-
-### Logo
+The site is one page divided into 6 sections: A header section, about section, squads section, timetable section, contact section, annd a footer with social media links.
 
 ### Header Section
 The header section is the first section of the site and consists of a hero image with an animation, a welcome message on top of the hero image, and some intro text.
 
 ### About Section
+The about section consists of some text and an image. The image was found on pexels. The image and texts were aligned using fload right and float left respectively. The text is used to offer some information on the club, its achivements, and its training locations. The image is used to lift the site a bit and add a bit of interest to the section. 
 
-  
+### Squads Section
+The squads section offers information on the squads the club offers, from its Gold Squad that consists of National swimmers to its Learn to Swim section. The squads use alternating background colors and text colors, blue on white, and white on blue. This adds a bit of interest to the site, and adds to the design of the site. The colors are also Monson Swimming Clubs chosen colors, so they are used to reinforce the club.
+
+### Timetable Section
+
+
+
+## Code Features
+
+### Logo
+
+### Nav Section
+
+The navbar is a responsive menu. It uses the BootStrap collapsible dropdown menu on mobile, while on tablet, laptop and desktop, it expands and displays at the top of the site above the header image. It uses a white background and blue text set to the hexcode #71bbd4 to create a contrast between the blue text and the white background. It also represents Monson's blue logo and club colours.
 
 https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 
