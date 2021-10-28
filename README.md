@@ -43,7 +43,30 @@
 
 
 
+## **Overview**
+  - This site was created for MS1 for Code Institute, and is a work of fiction. Any name or place that is used is made up, and any relation to
+  any real places is entirely coincidental.
+  - The site's name is "Monson Swimming Club"
+  - The source code for this site can be found on GitHub [here](https://github.com/AJWest22/MS1-resub).
+  - The purpose for this site is to advertise for a successful swimming club in an area called Monson, and entise people to learn to swim as well
+  as try to draw already successful swimmers to a new club. 
+  - This site draws upon my experiences as a swimmer, and uses similar training elements to clubs I used to swim for and against.
 
+
+## **Site Goals**
+
+### **UX Goals**
+
+   - Users must be able to find out about the club
+   - What type of swimmers the club caters for
+   - How many hours the club offers
+   - Users can contact the club owners for more information and with any questions they may have.
+
+### **Siteowner's Goals**
+
+   - Provide information on a swimming club, like its achievements, its ambitions, and timetables.
+   - Ensure it is user friendly, and easy to use
+   - Ensure the site leaves the user feeling positive after interacting with it
 
 
 
