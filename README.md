@@ -9,9 +9,15 @@
     2. [Siteowners Goals](#siteowners-goals)
     3. [User Stories](#user-stories)
     4. [Siteowner Stories](#siteowner-stories)
+    5. [Target Audience](#target-audience)
 
-3. [About the Site](#about-the-site)
-    1.[Target Audience](#target-audience)
+3. [About the Site](#about-the-site) 
+    1. [Header Section](#header-section)
+    2. [About Section](#about-section)
+    3. [Squad Section](#squad-section)
+    4. [Timetable Section](#timetable-section)
+    5. [Contact Section](#contact-section)
+    6. [Footer Section](#footer-section)
 
 4. [Code Used](#code-used)
     1. [Frameworks](#frameworks)
@@ -25,6 +31,8 @@
 6. [Bugs](#bugs)
 
 7. [Code Features](#code-features)
+    1. [Nav Section](#nav-section)
+    2. [Logo](#logo)
 
 8. [Features to be Added](#features-to-be-added)
 
@@ -81,9 +89,28 @@
   - As the siteowner I want the site to have some form of user interactivity.
   - As the siteowner the purpose of the site should be clear from the outset.
 
+### **Target Audience**
+
+  - Competitive swimmers looking to move to a more successful club
+  - Competitive swimmers looking for more training hours
+  - People looking to learn to swim
+  - Ex-club swimmers looking to get back into swimmers
+  - Teenagers wanting to swim for fitness
 
 ## About the Site
 
+The site is one page divided into 6 sections: A nav section, header section, about section, squads section, timetable section, contact section, annd a footer with social media links. 
+
+### Nav Section
+
+The navbar is a responsive menu. It uses the BootStrap collapsible dropdown menu on mobile, while on tablet, laptop and desktop, it expands and displays at the top of the site above the header image. It uses a white background and blue text set to the hexcode #71bbd4 to create a contrast between the blue text and the white background. It also represents Monson's blue logo and club colours.
+
+### Logo
+
+### Header Section
+The header section is the first section of the site and consists of a hero image with an animation, a welcome message on top of the hero image, and some intro text.
+
+### About Section
 
   
 
