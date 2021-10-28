@@ -35,16 +35,22 @@
                 <div class="collapse navbar-collapse text-center" id="toggleMobileMenu">
                     <ul class="navbar-nav ms-sm-auto text-center" id="menu">
                         <li class="active nav-item list-inline-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#header-outer">Home</a>
                         </li>
                         <li class="active nav-item list-inline-item">
-                            <a class="nav-link" href="#">Squads</a>
+                            <a class="nav-link" href="#about-section">About</a>
                         </li>
                         <li class="active nav-item list-inline-item">
-                            <a class="nav-link" href="#">Training and Training Times</a>
+                            <a class="nav-link" href="#squad-section">Squads</a>
                         </li>
                         <li class="active nav-item list-inline-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#timetable-section">Training and Training Times</a>
+                        </li>
+                        <li class="active nav-item list-inline-item">
+                            <a class="nav-link" href="#contact-section">Contact Us</a>
+                        </li>
+                        <li class="active nav-item list-inline-item">
+                            <a class="nav-link" href="#social-media">Social Media</a>
                         </li>
                     </ul>
                 </div>
@@ -52,6 +58,7 @@
         </div>
     </header>
 
+    <!--Header section and hero image-->
     <section id="header-outer"> 
         <div>
             <img id="header-image" src="images/hero-image.jpg">
@@ -62,6 +69,7 @@
         </div>
     </section>
 
+    <!--Intro text-->
     <section>
         <div id="intro-text">
             <p>We are a friendly competitive swimming club based in Kent. We cater for all abilities from swimming for fitness, to competitive
@@ -73,6 +81,7 @@
         </div>
     </section>
 
+    <!--About section on website-->
     <section id="about-section">
         <div id="about-header">
             <h2>Why Train With Us?</h2>
@@ -99,18 +108,21 @@
                     informative. Please note, in order to attend these clinics you must be a member of either Monson or another swimming club.
                 </p>
             </div>
-        </div>  
+        </div>
+        <!--Image of swimmer next to the about text-->  
         <div>
             <img id="swimmer" src="images/swimmer-image.png">
         </div>
     </section>
 
+    <!--Squads header-->
     <section id="squad-section">
         <div id="squads-header">
             <h2>Performance Squads</h2>
         </div>
     </section>
     
+    <!--Performance Squads and their aims-->
     <section id="squads">
         <div class="squads">
             <h4>Gold Squad</h4>
@@ -144,6 +156,7 @@
         </div>
     </section>
 
+    <!--Devlopment Squads and their aims-->
     <section id="squads2">
         <div class="squads2">
             <h4>Blue 2</h4>
@@ -175,6 +188,7 @@
         </div>
     </section>
 
+    <!--Academy Squads-->
     <section id="squads3">
         <div class="squads3">
             <h4>Academy 2</h4>
@@ -204,6 +218,7 @@
         </div>
     </section>
 
+    <!--Fitness and Masters Squads-->
     <section id="squads4">
         <div class="squads4">
             <h4>Red Squad</h4>
@@ -226,14 +241,18 @@
             swim for adults, so swimmers must be proficient in freestyle, possibly backstroke, and confident in the water. 
             </p>
         </div>
+        <!--Fitness and Masters image-->
         <div>
             <img id="fitness-image" src="images/fitness-image.JPG">
         </div>
     </section>
 
-    <section>
+    <!--Timetable Header-->
+    <section id="timetable-section">
         <h2 id="timetable">Timetables:</h2>
     </section>
+
+    <!--Performance Timetables-->
     <section>
         <div class="squad-table">
             <h2>Performance Squads Timetables:</h2>
@@ -282,6 +301,8 @@
                 </tr>
             </table>
         </div>
+
+        <!--Development Squads timetables-->
         <div style="overflow-x:auto">
             <div class="squad-table">
                 <h2>Development Squads Timetables:</h2>
@@ -328,6 +349,8 @@
                 </tr>
             </table>
         </div>
+
+        <!--Academy and Learn To Swim timetables-->
         <div style="overflow-x:auto">
             <div class="squad-table">
                 <h2>Academy & Learn To Swim Timetables:</h2>
@@ -374,6 +397,8 @@
                 </tr>
             </table>
         </div>
+
+        <!--Fitness and Masters timetables-->
         <div style="overflow-x:auto">
             <div class="squad-table">
                 <h2>Fitness & Masters Timetables:</h2>
@@ -402,30 +427,39 @@
             </table>
         </div>
     </section>
+
+    <!--Contact form header-->
     <section>
         <div id="contact">
             <h2> Contact Form</h2>
         </div>
     </section>
 
+    <!--Contact Form and image-->
     <section id="contact-section">
         <div>
             <img id="contact-image" src="images/contact-image.jpeg">
         </div>
+
+        <!--Contact Form-->
         <div id="form" action="" method="POST">
             <form>
+                <!--Name field on form-->
                 <div class="form-field">
                     <label for="name" class="form-label">Name:</label><br>
                     <input type="text" id="name" class="field" name="name" placeholder="John Doe" required><br>
                 </div>
+                <!--Email field on form-->
                 <div class="form-field">
                     <label for="email" class="form-label">Email:</label><br>
                     <input type="email" id="email" class="field" name="email" placeholder="johndoe@hotmail.com" required><br>
                 </div>
+                <!--Message field on form-->
                 <div class="form-field">
                     <label for="" class="form-label">Message:</label><br>
                     <textarea class="field" rows="3" cols="30" id="message" placeholder="I am interested in joining your club"></textarea><br>
                 </div>
+                <!--Send button on form-->
                 <div class="form-field">
                     <button class="form-label">Send</button>
                 </div>
@@ -433,14 +467,17 @@
         </div>
     </section>
 
-    <section>
+    <!--Footer text-->
+    <section id="social-media">
         <h2 id="footer-text">Follow Us and Our Successess on Our Social Media:</h2>
     </section>
 
+    <!--Footer image-->
     <section>
         <img id="footer-image" src="images/footer-image.jpeg">
     </section>
 
+    <!--Footer divs containing social links-->
     <section id="footer">
         <div>
             <h2>Facebook <i class="fab fa-facebook"></i></h2>
@@ -458,6 +495,7 @@
             <h2>Pinterest <i class="fab fa-pinterest"></i></h2>
         </div>
     </section>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
