@@ -110,7 +110,15 @@ The about section consists of some text and an image. The image was found on pex
 The squads section offers information on the squads the club offers, from its Gold Squad that consists of National swimmers to its Learn to Swim section. The squads use alternating background colors and text colors, blue on white, and white on blue. This adds a bit of interest to the site, and adds to the design of the site. The colors are also Monson Swimming Clubs chosen colors, so they are used to reinforce the club.
 
 ### Timetable Section
+The timetable section contains the timetables of all the squads. They again use the same blue background and white text as some of the squad designs, this ensures there are no major design changes and it follows with the flow of the website. The timetable may sound too demanding and unrealistic, especially for the top squads, but this is standard for a lot of clubs in the UK.
 
+### Contact Section
+
+This section is used to offer a bit of interactivity between the client and website owner. It gives a feeling of legitimacy and offers a sense of trust that this site is legit and the owner can be contacted with any questions on if they want mre information.
+
+### Footer
+
+The footer of the site contains their social media profiles. It is used as an alternative way of contacting the club, and offering support and seeing what they have achieved at comeptetitions.
 
 
 ## Code Features
