@@ -1,14 +1,60 @@
 # MS1-resub
 
+##Table of Contents
+
+1. [Overview](#overview)
+
+2. [Site Goals](#sitegoals)
+    1. [UX Goals](#ux-goals)
+    2. [Siteowners Goals](#siteowners-goals)
+    3. [User Stories](#user-stories)
+    4. [Siteowner Stories](#siteowner-stories)
+
+3. [About the Site](#about-the-site)
+    1.[Target Audience](#target-audience)
+
+4. [Code Used](#code-used)
+    1. [Frameworks](#frameworks)
+    2. [Files Made](#files-made)
+  
+5. [Design](#design)
+    1. [Typography](#typography)
+    2. [Colors](#colors)
+    3. [Images](#images)
+
+6. [Bugs](#bugs)
+
+7. [Code Features](#code-features)
+
+8. [Features to be Added](#features-to-be-added)
+
+9. [Testing](#testing)
+    1. [HTML Validation](#html-validation)
+    2. [CSS Validation](#css-validation)
+    3. [Python Validation](#python-validation)
+    4. [Browser Compatibility](#browser-compatibility)
+    5. [Devices Tested On](#devices-tested-on)
+
+10. [Credits](#credits)
+     1. [Icons](#icons)
+     2. [Imagery](#imagery)
+     3. [CSS Framework](#css-framework)
+     4. [JQuery Framework](#jquery-framework)
+
+
+
+
+
+
+
+  
 
 https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 
 
 BUGS:
-HEADER IMAGE MAY NOT ALWAYS SHOW AND EXCESS SPACING IN HEADER ON MOBILE
-<details><summary>Screenshot of header image displaying on the deployed website:</summary>
-  <img src="images/header-image-on-deployed.png">
-</details>
+
+In the navbar sometimes when you click the site jumps but doesn't scroll for some reaosn.
 
 <details><summary>Screenshot of where excess sppacing has come from just below the hero image:</summary>
   <img src="images/excess-spacing.png">
