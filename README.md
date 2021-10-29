@@ -104,7 +104,7 @@ The site is one page divided into 6 sections: A header section, about section, s
 The header section is the first section of the site and consists of a hero image with an animation, a welcome message on top of the hero image, and some intro text.
 
 ### About Section
-The about section consists of some text and an image. The image was found on pexels. The image and texts were aligned using fload right and float left respectively. The text is used to offer some information on the club, its achivements, and its training locations. The image is used to lift the site a bit and add a bit of interest to the section. 
+The about section consists of some text about the club and an image. The image was found on pexels. The image and texts were aligned using fload right and float left respectively. The text is used to offer some information on the club, its achivements, and its training locations and pool size. The image is used to lift the site a bit and add a bit of interest to the section. 
 
 ### Squads Section
 The squads section offers information on the squads the club offers, from its Gold Squad that consists of National swimmers to its Learn to Swim section. The squads use alternating background colors and text colors, blue on white, and white on blue. This adds a bit of interest to the site, and adds to the design of the site. The colors are also Monson Swimming Clubs chosen colors, so they are used to reinforce the club.
@@ -118,10 +118,18 @@ This section is used to offer a bit of interactivity between the client and webs
 
 ### Footer
 
-The footer of the site contains their social media profiles. It is used as an alternative way of contacting the club, and offering support and seeing what they have achieved at comeptetitions.
+The footer of the site contains their social media profiles. It is used as an alternative way of contacting the club, showing support for the club's achievemnts, and seeing what they have achieved at comeptetitions.
 
+## Code Used
+
+This site is written in HTML and CSS. HTML is used to provide the site's structure, such as the table element, and contact form, while CSS is used to add styling to the site, like the colouring of the site, and the sizing and positioning of images and text. Flexbox and CSS positioning are used to align items. Items that are two in a row, for example the about text and image, are aligned using the float positioning, whereas items of more than 2 in a row, for example the squads, are aligned using Flexbox. 
+
+### Frameworks
+
+Bootstrap is used to provide the collapsible menu on mobile. I used it as a way of providing the menu on mobile, without having to align the menu items vertivally on mobile in a straight line, as it adds a bit more style to the site.
 
 ## Code Features
+
 
 ### Logo
 
