@@ -395,6 +395,15 @@ button {
     padding: 2em;
 }
 
+.social-link {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.social-link:hover {
+    color: #62b4cf;
+}
+
 @media screen and (max-width: 1396px) {
 
     #squads-header h2 {
