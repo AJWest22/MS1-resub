@@ -37,6 +37,9 @@
     5. [Social Media](#social-media)
 
 8. [Features to be Added](#features-to-be-added)
+    1. [Hover Effects](#hover-effects)
+    2. [JavaScript](#javascript)
+    3. [Gallery Page](#gallery-page)
 
 9. [Testing](#testing)
     1. [HTML Validation](#html-validation)
@@ -271,6 +274,7 @@ The code has several features worth noting: logo, nav, toggle mobile menu, conta
    - makes the site feel more reliable and trustworthy
    - same font family as rest of text on site (Poppins)
    - same background colour as club logo to keep the site flow the same
+   - Submit button is a different shade of blue to the rest of the site to create a contrast between the light blue and the darker blue button colour. originally a white background was created with a lightblue text the same shade as the logo, but this wasn't possibe as the whole kept turning white, for some reason.
   
 ### Social Media
 
@@ -283,8 +287,22 @@ The code has several features worth noting: logo, nav, toggle mobile menu, conta
 
 ## Features to be Added
 
-### Hover colours
-Hover colours for social links
-The navbar is a responsive menu. It uses the BootStrap collapsible dropdown menu on mobile, while on tablet, laptop and desktop, it expands and displays at the top of the site above the header image. It uses a white background and blue text set to the hexcode #71bbd4 to create a contrast between the blue text and the white background. It also represents Monson's blue logo and club colours.
+There were several features that I would have liked to have added but didn't have the time to complete. These include: hover effects for social media links, JavaScript for the form, gallery page, add more site pages.
+
+### Hover Effects
+
+At some point I would like to add hover colours for the social media links, that match that social media icon. So for exaple and light shade of blue for the twitter icon, a dark shade for the facebook icon, a light purple colour for the instagram icon, and red for the youtube and pinterest icons.
+
+### JavaScript
+
+I would like to add form validation with JavaScript to add some more realism to the contact form and the site as a whole. I'd also like to add in some JavaScript animations around the site.
+
+### Gallery Page
+
+At some point I'd like to add a gallery page with some more images, and style this using some javaScript animations and Flexbox layout
+
+### Site Pages
+
+I'd also like to add more site pages, right now the site is one page with a lot of content. So at some point I'd like to restructure the site, with more pages and submenus, so have a menu link for "Squads" with a sub menu with links to pages on the Performance Squads, Development Squads, Academy, and Fitness and Master's Squads pages. I'd also like to create a seperate page for the contact form, and timetables as information would be spread out nicer and easier to access.
 
 https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
