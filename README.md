@@ -50,7 +50,6 @@
 10. [Credits](#credits)
      1. [Icons](#icons)
      2. [Imagery](#imagery)
-     3. [CSS Framework](#css-framework)
 
 
 
@@ -337,9 +336,29 @@ This site has been tested on the following browsers:
 
 ## Credits
 
+Below are my sources for things like icons, images etc
 
 ### Icons
 
+All icons can be found on (font-awesome)[https://fontawesome.com/] 
+A list of icons used are: 
+
+  - Favicon Icon: Icon class: <i class="fas fa-swimmer"></i> (link to icon)[https://fontawesome.com/v5.15/icons/swimmer?style=solid]
+  - Facebook Icon: <i class="fab fa-facebook"></i> (link to icon)[https://fontawesome.com/v5.15/icons/facebook-square?style=brands]
+  - Twitter Icon: <i class="fab fa-twitter"></i> (link to icon)[https://fontawesome.com/v5.15/icons/twitter?style=brands]
+  - Instagram Icon <i class="fab fa-instagram"></i> (link to icon)[https://fontawesome.com/v5.15/icons/instagram?style=brands]
+  - Youtube Icon <i class="fab fa-youtube"></i> (link to icon)[https://fontawesome.com/v5.15/icons/youtube?style=brands]
+  - Pinterest Icon <i class="fab fa-pinterest"></i> (link to icon)[https://fontawesome.com/v5.15/icons/pinterest?style=brands]
+
+
 ### Imagery
 
-https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+All images can be found on Pixabay and Pexels, 
+
+A list of images and their respective links are:
+
+   - Header Image: (link)[https://www.pexels.com/photo/person-swimming-on-body-of-water-863988/]
+   - Swimmer Image (link)[https://pixabay.com/photos/swimming-swimmer-female-race-78112/]
+   - Fitness Image (link)[https://pixabay.com/photos/swimmers-swimming-pool-olympic-pool-79592/]
+   - Contact Image (link)[https://www.pexels.com/photo/person-swimming-in-body-of-water-1263348/]
+   - Footer Image (link)[https://www.pexels.com/photo/people-doing-swim-race-1263349/]
