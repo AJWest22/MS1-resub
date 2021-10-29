@@ -59,6 +59,7 @@
 
 ## **Site Goals**
 
+
 ### **UX Goals**
 
    - Users must be able to find out about the club
@@ -96,6 +97,7 @@
   - Ex-club swimmers looking to get back into swimmers
   - Teenagers wanting to swim for fitness
 
+
 ## About the Site
 
 The site is one page divided into 6 sections: A header section, about section, squads section, timetable section, contact section, annd a footer with social media links.
@@ -120,6 +122,7 @@ This section is used to offer a bit of interactivity between the client and webs
 
 The footer of the site contains their social media profiles. It is used as an alternative way of contacting the club, showing support for the club's achievemnts, and seeing what they have achieved at comeptetitions.
 
+
 ## Code Used
 
 This site is written in HTML and CSS. HTML is used to provide the site's structure, such as the table element, and contact form, while CSS is used to add styling to the site, like the colouring of the site, and the sizing and positioning of images and text. Flexbox and CSS positioning are used to align items. Items that are two in a row, for example the about text and image, are aligned using the float positioning, whereas items of more than 2 in a row, for example the squads, are aligned using Flexbox. 
@@ -128,8 +131,27 @@ This site is written in HTML and CSS. HTML is used to provide the site's structu
 
 Bootstrap is used to provide the collapsible menu on mobile. I used it as a way of providing the menu on mobile, without having to align the menu items vertivally on mobile in a straight line, as it adds a bit more style to the site.
 
-## Code Features
 
+## Design
+
+The design of the site is a modern one, it draws on the use of whitespace between the text and images to create a modern look and feel, while still being easy to use. The site uses the club's main colours of blue (hexcodes #71bbd4 #62b4cf) to add style to the typography of the site, (the headers and the menu text for example) and lift the site against a white background.
+
+### Typography
+
+There are several fonts used in the site, Quicksand for the logo, Anton for the headers, and Poppins for the site text and menu links. I used Quicksand for the logo, with some letter spacing of 3px as it made the logo stand out, while keeping it simple, and not overtly showey or in your face, the spacing also allowed the letters some breathing space and along with the text-shadow of 1px, also helped making it stand out. The blue color is the same one to the rest of the site: #62b4cf, and set against the white background creates a nice contrast, while still making the site look clean and modern.
+
+### Colors
+
+The site's main colours are white and blue, as a reflection of the club's main colours. I chose these colours as they can create a nice contrast, and create a modern feel to the site. The colours used are: #62b4cf and #71bbd4. #71bbd4 is used solely for the menu, as a way of offering a slightly different shade to the logo and text, while still in keeping with the #62b4cf colour that is used in the headers and logo of the site. The white background is used to create whitespace, and a modern feel and look to the site. It also provides a nice contrast with the blue text, and when added with the black text-shadow in the texts, it creates an eyecatching look, for example in the squads section, the blue background and the white text of the Performance Squad section. 
+
+### Images
+
+There are four images used in the site, images are found on pexels and pixa bay (links to these images can be found in the credits section of this README) The images chosen aim to encourage people into swimming, and depict both training and competitive images. The header image:
+<img src="images/hero-image">
+is a training image of someone doing butterfly, the hardest stroke, which combined with the white welcome text, creates a sense of awe whie keeping the look modern and fresh. 
+
+
+## Code Features
 
 ### Logo
 
