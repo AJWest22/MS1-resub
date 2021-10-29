@@ -30,8 +30,11 @@
 6. [Bugs](#bugs)
 
 7. [Code Features](#code-features)
-    1. [Nav Section](#nav-section)
-    2. [Logo](#logo)
+    1. [Logo](#logo)
+    2. [Nav](#nav)
+    3. [Toggle Mobile Menu](#toggle-mobile-menu)
+    4. [Contact Form](#contact-form)
+    5. [Social Media](#social-media)
 
 8. [Features to be Added](#features-to-be-added)
 
@@ -220,6 +223,8 @@ On mobile there is some excess spacing below the header image and intro text. Th
 
 There were some difficulties centering the Performance Squad text on desktop, I tried centering it with, align-items, align-content, and text-align, but it will not move completely to the center. Margin and padding were also used, but the text was refusing the center. I have attached a screen grab of that section when viewed with the Chrome extension "Unicorn", and the text itself is out of its container, which is unusual as there is nothing in the HTML to suggest otherwise. There was an issue when using Flexbox to align the squads below the Performance Squad text jumped up and to the right (under the image with the is of #swimmer) which I think orginally caused this issue. Currently align-items: center is used to center everything, and although this works on mobile and tablet, it doesn't work on laptop and desktop. 
 
+Originally there was a fitness squads header texr added to the site above the fitness squads as a way of introducing that section, but when it was added it jumped halfway up the page and again couldn't be centered, so was removed. This was probably due to the same reason as the above Performance Squad text. 
+
 <details><summary>Screenshot of Performance Squads text can be seen out of its section:</summary>
   <img src="images/squad-text-bug.png">
 </details>
@@ -234,16 +239,52 @@ Instagram is not centered in its div in the footer, not sure why this is, it mig
 
 ## Code Features
 
+The code has several features worth noting: logo, nav, toggle mobile menu, contact form, social media
+
 
 ### Logo
 
-### Nav Section
+  - Is used to help advertise the club
+  - Quicksand font and letter-spacing is used to keep it simple, but also eye catching
+  - Advertises the club's main colours
 
+### Nav
+
+  - is responsive
+  - displays the sections of the website
+  - uses a white background with blue text to give a modern look and feel
+  - uses a similar blue text to the logo to keep the typography similar, while also being slightly different
+  - Provides a way for users to naviagte the site
+  - font family is the same as the rest of the font for text on the site (Poppins)
+
+### Toggle Mobile Menu
+
+  - acts as the mobile version of the site menu
+  - has a blue background a similar shade as the club's logo to help keep the menu inkeeping with the rest of the site and club's colours.
+  - the font is Poppins which is the same font the rest of the text on the site
+  - Provides a way for users to navigate the site
+  - Gives the site a modern look and feel
+
+### Contact Form
+
+   - offers a way of contacting the site owner
+   - makes the site feel more reliable and trustworthy
+   - same font family as rest of text on site (Poppins)
+   - same background colour as club logo to keep the site flow the same
+  
+### Social Media
+
+  - Located in the footer of the site
+  - Offers an alternate way of contacting the club
+  - A way of showing their success instead of just telling about them, so adds a sense that this is a good and reliable club
+  - Offers a way of supporting them, even if you don't swim for them, by giving users the chance to follow them
+  - Can be used as a way to show what sets are like by posting pictures of the sets done, and with permission, photos of the swimmers doing them
+
+
+## Features to be Added
+
+### Hover colours
+Hover colours for social links
 The navbar is a responsive menu. It uses the BootStrap collapsible dropdown menu on mobile, while on tablet, laptop and desktop, it expands and displays at the top of the site above the header image. It uses a white background and blue text set to the hexcode #71bbd4 to create a contrast between the blue text and the white background. It also represents Monson's blue logo and club colours.
 
 https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-
-
-BUGS:
-
-Mention why fitness squads was rmeoved (it was placed below the red squad text and image, z-index, position relative and static where used to try to correct it.)
