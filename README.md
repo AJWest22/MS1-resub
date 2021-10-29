@@ -305,4 +305,36 @@ At some point I'd like to add a gallery page with some more images, and style th
 
 I'd also like to add more site pages, right now the site is one page with a lot of content. So at some point I'd like to restructure the site, with more pages and submenus, so have a menu link for "Squads" with a sub menu with links to pages on the Performance Squads, Development Squads, Academy, and Fitness and Master's Squads pages. I'd also like to create a seperate page for the contact form, and timetables as information would be spread out nicer and easier to access.
 
+## Testing 
+
+This code has been run through a HTML validator and CSS Validator.
+
+### HTML Validation
+
+This code has been (here)[https://validator.w3.org/] and came back with positive results with only a few suggestions such as the JavaScript file not needing a type text
+
+### CSS Validation
+
+This code has been tested (here)[https://jigsaw.w3.org/css-validator/] and found a handful of errors primarily to do with the bootstrap menu classes not being recognised, even though these classes have not been changed from the original
+
+### Browser Compatibility
+
+This site has been tested on the following browsers:
+  - Google Chrome
+  - Mozilla Firefox
+  - Safari
+  - Microsoft Edge
+
+### Devices Tested On
+
+  - iPhone SE 2016
+  - iPhone SE 2020
+  - Samsung Galaxy A12
+  - iPad 7th Gen
+  - iPad 8th Gen
+  - Acer Aspire Laptop
+
+
+## Credits
+
 https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
