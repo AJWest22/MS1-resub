@@ -112,7 +112,7 @@ The about section consists of some text about the club and an image. The image w
 The squads section offers information on the squads the club offers, from its Gold Squad that consists of National swimmers to its Learn to Swim section. The squads use alternating background colors and text colors, blue on white, and white on blue. This adds a bit of interest to the site, and adds to the design of the site. The colors are also Monson Swimming Clubs chosen colors, so they are used to reinforce the club.
 
 ### Timetable Section
-The timetable section contains the timetables of all the squads. They again use the same blue background and white text as some of the squad designs, this ensures there are no major design changes and it follows with the flow of the website. The timetable may sound too demanding and unrealistic, especially for the top squads, but this is standard for a lot of clubs in the UK.
+The timetable section contains the timetables of all the squads. They again use the same blue background and white text as some of the squad designs, this ensures there are no major design changes and it follows with the flow of the website. The timetable may sound too demanding and unrealistic, especially for the top squads, but this is standard for a lot of clubs in the UK. The timetables were orginally run togetheras one big block, however they were later divided into 4 timetables for the different squad groups, to keep it more manageable, readable and less overwhelming for the site user, especailly users viewing the site on mobile devices.
 
 ### Contact Section
 
@@ -147,8 +147,33 @@ The site's main colours are white and blue, as a reflection of the club's main c
 ### Images
 
 There are four images used in the site, images are found on pexels and pixa bay (links to these images can be found in the credits section of this README) The images chosen aim to encourage people into swimming, and depict both training and competitive images. The header image:
-<img src="images/hero-image">
+
+<img src="images/hero-image.jpg">
+
 is a training image of someone doing butterfly, the hardest stroke, which combined with the white welcome text, creates a sense of awe whie keeping the look modern and fresh. 
+
+The second and fourth images are of a girl doing freestyle, typically regarded as the fastest of the 4 swimming strokes, and the most popular, this image is used to try to convey a sense of speed to demonstrate the club's competitive success, while creating a sense of familiarity, the stroke is instantly recognisable, this and the contact form next to the fourth image help to connect the site with the user and make the user feel less alienated from the site and make the site feel more welcoming, while still looking and feeling modern, and sticking with the site's colour scheme, for example the fourth image's blue background and the blue header text that introduces each section the image is found in. 
+
+Second Image:
+
+<img src="images/swimmer-image.png">
+
+Fourth Image:
+
+<img src="images/contact-image.jpeg">
+
+
+The third image in the fitness and Master's section is used to lift the site and keep the site looking modern in its look, while keping that section interesting and relevant to the overall site's purpose. The image  
+
+<img src="images/fitness-image.JPG">
+
+depicts someone diving into the pool, this keeps the section relevant to the overall site content by introducing the fitness and Master's squads in a way that is inkeeping with the site's design, for example the alignment of the image and text and the typography used.
+
+The fifth image in the footer:
+
+<img src="images/footer-image.jpeg">
+
+is used to convey the club's experiences of competing, as in the footer is the club's social media which documents the club's successes in competitions, as well as offering another way to contact them. The contrast between the image and the white background and the shaded containers with the social media in, keeps the design fresh, while not deviating too much from the site's main design. This is demonstrated by the same typography used in the social media links: Poppins, and the footer header text: Anton, which is also the same colour as the other headers on the site, this also keeps the flow and feel of the site similar.
 
 
 ## Code Features
