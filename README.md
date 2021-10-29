@@ -176,6 +176,56 @@ The fifth image in the footer:
 is used to convey the club's experiences of competing, as in the footer is the club's social media which documents the club's successes in competitions, as well as offering another way to contact them. The contrast between the image and the white background and the shaded containers with the social media in, keeps the design fresh, while not deviating too much from the site's main design. This is demonstrated by the same typography used in the social media links: Poppins, and the footer header text: Anton, which is also the same colour as the other headers on the site, this also keeps the flow and feel of the site similar.
 
 
+## Bugs
+
+There are several bugs in this site which are documented below and the way they were attempted to be fixed: 
+
+**Nav Bugs**
+In the nav sometimes when you click on a link the site jumps but doesn't scroll for some reaosn. I have never had this happen before and unsure how to fix it completely. It does not happen all the time, but sometimes it can take clicking a nav link a couple of times for it to scroll to its correct place. I tried removing the nav links and reinserting them, but this didn't correct it. 
+
+On mobile the toggle nav is off center, this is unusal as it was centering and working perfectly until the very late stages of development, again I'm not sure why this is, but attempts were made to correct this: overflow-y set to hidden and was used to stop the toggle button from dropping out of alignment with the logo, and overflow-x was set to hidden and was used in an attempt to keep the toggle menu button on the screen, closer to the logo, however although overflow-y stopped it from sinking out of alignment, overflow-x did little to correct the bug. On iPhone and Android Models in portrait mode, the menu was not visible at all, it was there but positioned off screen, this was demonstrated as when the phone was rotated to landscape mode, the menu appeared, and worked perfectly. In order for users to have a menu, it was decided to keep overflow-x turned off, so users could at least have a menu. 
+
+Margin and padding were used to attempt to correct this, but setting the margin to margin-left and a negative figure, or margin-right to a positive figure, or doing the same ting but with padding-left and padding-right respectively corrected the bug. 
+
+In the screenshots below you can see the nav centered on mobile in the beginning of development, and then later at the end it has been pushed out of container for some reason. This might be an issue with Flexbox and margins, as there is a similar issue with the Performance Squads text, as discussed later on.
+
+<details><summary>Screenshot of nav centered in the early to late stages of development</summary>
+  <img src="images/nav-centered.png">
+</details>
+
+<details><summary>Screenshot of the navbar on mobile prior to trying to fix it:</summary> (The navbar has moved from its original position out the container it is in)
+  <img src="images/original-spacing-error.png">
+</details>
+
+<details><summary>Screenshot of the nav bar after some padding was added and overflow-x was added, it moved the nav closer to the logo, but out of alignment, and it still couldn't be seen on mobile despite no excess spacing showing up. Padding and margin were used to attempt to correct this but it wouldn't move.</summary>
+  <img src="images/partially-fixed--spacing-error.png">
+</details>
+
+<details><summary>Screenshots of the navbar on mobile in its current state, it is now in its original container, and aligned with the logo, padding-left with a negative setting and padding-right with a positive setting and margin-right with a positive setting were used to try to correct this, along with centering positions like align-content: center.</summary>
+  <img src="images/currentnav1.png">
+  <img src="images/current-nav2.png">
+</details>
+
+
+**Excess Spacing Bug**
+On mobile there is some excess spacing below the header image and intro text. This is caused by the div with the welcome text in it, I've tried setting the height of the div, changing the size of the text, max height, changing padding, and margins but nothing has corrected it. I have attached screenshots of the excess spacing as shown by Chrome Developer tools showing where the excess spacing has come from. 
+
+<details><summary>Screenshot of where excess sppacing has come from just below the hero image:</summary>
+  <img src="images/excess-spacing.png">
+</details>
+
+**Performance Squad Text Bug**
+There were some difficulties centering the Performance Squad text on desktop, I tried centering it with, align-items, align-content, and text-align, but it will not move completely to the center. Margin and padding were also used, but the text was refusing the center. I have attached a screen grab of that section when viewed with the Chrome extension "Unicorn", and the text itself is out of its container, which is unusual as there is nothing in the HTML to suggest otherwise. There was an issue when using Flexbox to align the squads below the Performance Squad text jumped up and to the right (under the image with the is of #swimmer) which I think orginally caused this issue. Currently align-items: center is used to center everything, and although this works on mobile and tablet, it doesn't work on laptop and desktop. 
+
+<details><summary>Screenshot of Performance Squads text can be seen out of its section:</summary>
+  <img src="images/squad-text-bug.png">
+</details>
+
+
+Instagram not centered in div in footer, not sure why this is, its something to do with the padding mentioned in the #footer h2 in the css on desktop, but it is set to "text-align: center" in both, so should be centered but isn't.
+
+Text not centered on mobile, not sure why this is.
+
 ## Code Features
 
 ### Logo
@@ -188,34 +238,5 @@ https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&c
 
 
 BUGS:
-
-In the navbar sometimes when you click the site jumps but doesn't scroll for some reaosn.
-
-<details><summary>Screenshot of where excess sppacing has come from just below the hero image:</summary>
-  <img src="images/excess-spacing.png">
-</details>
-
-<details><summary>Screenshot of Performance Squads text can be seen out of its section:</summary> (margin and padding and posiitoning were used to  attempt to correct it)
-  <img src="images/squad-text-bug.png">
-</details>
-
-<details><summary>Screenshot of Performance Squads text can be seen out of its section:</summary> (margin and padding and posiitoning were used to  attempt to correct it)
-  <img src="images/squad-text-bug.png">
-</details>
-
-<details><summary>Screenshot of the navbar on mobile prior to bug fix:</summary> (The navbar has moved from it original position along and the container it is in has also been moved I am unsure why this is, as I hadn't touched any code in the header)
-  <img src="images/original-spacing-error.png">
-</details>
-
-<details><summary>Screenshot of the nav bar after some padding was added and overflow was added</summary>
-  <img src="images/partially-fixed--spacing-error.png">
-</details>
-
-
-Toggle menu not centered on mobile: Overflow x and y were used to corect it and margin and padding. As well as align-content: center, and content-align: center on the div, and nav. Using overflow-x and setting it to hidden was the preferred option, as it closed the spacing significantly, however the navar wasn't viewable at all on phones in portrait mode, as it was still to far off screen. So for functionality it was considered best to have the overflow turned on so users could access the menu on portrait mode. 
-
-Instagram not centered in div in footer, not sure why this is, its something to do with the padding mentioned in the #footer h2 in the css on desktop, but it is set to "text-align: center" in both, so should be centered but isn't.
-
-Text not centered on mobile, not sure why this is.
 
 Mention why fitness squads was rmeoved (it was placed below the red squad text and image, z-index, position relative and static where used to try to correct it.)
