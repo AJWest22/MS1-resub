@@ -181,6 +181,7 @@ is used to convey the club's experiences of competing, as in the footer is the c
 There are several bugs in this site which are documented below and the way they were attempted to be fixed: 
 
 **Nav Bugs**
+
 In the nav sometimes when you click on a link the site jumps but doesn't scroll for some reaosn. I have never had this happen before and unsure how to fix it completely. It does not happen all the time, but sometimes it can take clicking a nav link a couple of times for it to scroll to its correct place. I tried removing the nav links and reinserting them, but this didn't correct it. 
 
 On mobile the toggle nav is off center, this is unusal as it was centering and working perfectly until the very late stages of development, again I'm not sure why this is, but attempts were made to correct this: overflow-y set to hidden and was used to stop the toggle button from dropping out of alignment with the logo, and overflow-x was set to hidden and was used in an attempt to keep the toggle menu button on the screen, closer to the logo, however although overflow-y stopped it from sinking out of alignment, overflow-x did little to correct the bug. On iPhone and Android Models in portrait mode, the menu was not visible at all, it was there but positioned off screen, this was demonstrated as when the phone was rotated to landscape mode, the menu appeared, and worked perfectly. In order for users to have a menu, it was decided to keep overflow-x turned off, so users could at least have a menu. 
@@ -208,6 +209,7 @@ In the screenshots below you can see the nav centered on mobile in the beginning
 
 
 **Excess Spacing Bug**
+
 On mobile there is some excess spacing below the header image and intro text. This is caused by the div with the welcome text in it, I've tried setting the height of the div, changing the size of the text, max height, changing padding, and margins but nothing has corrected it. I have attached screenshots of the excess spacing as shown by Chrome Developer tools showing where the excess spacing has come from. 
 
 <details><summary>Screenshot of where excess sppacing has come from just below the hero image:</summary>
@@ -215,18 +217,23 @@ On mobile there is some excess spacing below the header image and intro text. Th
 </details>
 
 **Performance Squad Text Bug**
+
 There were some difficulties centering the Performance Squad text on desktop, I tried centering it with, align-items, align-content, and text-align, but it will not move completely to the center. Margin and padding were also used, but the text was refusing the center. I have attached a screen grab of that section when viewed with the Chrome extension "Unicorn", and the text itself is out of its container, which is unusual as there is nothing in the HTML to suggest otherwise. There was an issue when using Flexbox to align the squads below the Performance Squad text jumped up and to the right (under the image with the is of #swimmer) which I think orginally caused this issue. Currently align-items: center is used to center everything, and although this works on mobile and tablet, it doesn't work on laptop and desktop. 
 
 <details><summary>Screenshot of Performance Squads text can be seen out of its section:</summary>
   <img src="images/squad-text-bug.png">
 </details>
 
+**Uncentered about text on mobile**
 
-Instagram not centered in div in footer, not sure why this is, its something to do with the padding mentioned in the #footer h2 in the css on desktop, but it is set to "text-align: center" in both, so should be centered but isn't.
+The about text on mobile isn't centered, this is unusual as it is set to text-align: cnter, and centers on tablet and desktop. Margin and padding were used to try and correct this, but the text still couldn't be centered.
 
-Text not centered on mobile, not sure why this is.
+**Footer Text**
+
+Instagram is not centered in its div in the footer, not sure why this is, it might be something to do with the padding in the #footer h2 in the css on desktop, but it is set to "text-align: center" in both, so should be centered. I have tried removing the padding, but this didn't work on centering it either. 
 
 ## Code Features
+
 
 ### Logo
 
