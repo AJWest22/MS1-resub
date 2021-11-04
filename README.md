@@ -58,6 +58,7 @@
   any real places is entirely coincidental.
   - The site's name is "Monson Swimming Club"
   - The source code for this site can be found on GitHub [here](https://github.com/AJWest22/MS1-resub).
+  - The site can be viewed [here](https://ajwest22.github.io/MS1-resub/)
   - The purpose for this site is to advertise for a successful swimming club in an area called Monson, and entise people to learn to swim as well
   as try to draw already successful swimmers to a new club.
 
@@ -191,7 +192,7 @@ In the nav sometimes when you click on a link the site jumps but doesn't scroll 
 
 On mobile the toggle nav is off center, this is unusal as it was centering and working perfectly until the very late stages of development, again I'm not sure why this is, but attempts were made to correct this: overflow-y set to hidden and was used to stop the toggle button from dropping out of alignment with the logo, and overflow-x was set to hidden and was used in an attempt to keep the toggle menu button on the screen, closer to the logo, however although overflow-y stopped it from sinking out of alignment, overflow-x did little to correct the bug. On iPhone and Android Models in portrait mode, the menu was not visible at all, it was there but positioned off screen, this was demonstrated as when the phone was rotated to landscape mode, the menu appeared, and worked perfectly. In order for users to have a menu, it was decided to keep overflow-x turned off, so users could at least have a menu. 
 
-Margin and padding were used to attempt to correct this, but setting the margin to margin-left and a negative figure, or margin-right to a positive figure, or doing the same ting but with padding-left and padding-right respectively corrected the bug. 
+Margin and padding were used to attempt to correct this, but setting the margin to margin-left and a negative figure, or margin-right to a positive figure, or doing the same thing but with padding-left and padding-right respectively corrected the bug. 
 
 In the screenshots below you can see the nav centered on mobile in the beginning of development, and then later at the end it has been pushed out of container for some reason. This might be an issue with Flexbox and margins, as there is a similar issue with the Performance Squads text, as discussed later on.
 
@@ -310,11 +311,17 @@ This code has been run through a HTML validator and CSS Validator.
 
 ### HTML Validation
 
-This code has been (here)[https://validator.w3.org/] and came back with positive results with only a few suggestions such as the JavaScript file not needing a type text
+This code has been [here](https://validator.w3.org/) and came back with positive results with only a few suggestions such as the JavaScript file not needing a type text
+
+<img src="images/html-validation.png">
+
+<img src="images/html-validation2.png">
 
 ### CSS Validation
 
-This code has been tested (here)[https://jigsaw.w3.org/css-validator/] and found a handful of errors primarily to do with the bootstrap menu classes not being recognised, even though these classes have not been changed from the original
+This code has been tested [here](https://jigsaw.w3.org/css-validator/) and found a handful of errors.
+
+<img src="images/css-validation.png">
 
 ### Browser Compatibility
 
@@ -340,15 +347,15 @@ Below are my sources for things like icons, images etc
 
 ### Icons
 
-All icons can be found on (font-awesome)[https://fontawesome.com/] 
+All icons can be found on [font-awesome](https://fontawesome.com/)
 A list of icons used are: 
 
-  - Favicon Icon: Icon class: <i class="fas fa-swimmer"></i> (link to icon)[https://fontawesome.com/v5.15/icons/swimmer?style=solid]
-  - Facebook Icon: <i class="fab fa-facebook"></i> (link to icon)[https://fontawesome.com/v5.15/icons/facebook-square?style=brands]
-  - Twitter Icon: <i class="fab fa-twitter"></i> (link to icon)[https://fontawesome.com/v5.15/icons/twitter?style=brands]
-  - Instagram Icon <i class="fab fa-instagram"></i> (link to icon)[https://fontawesome.com/v5.15/icons/instagram?style=brands]
-  - Youtube Icon <i class="fab fa-youtube"></i> (link to icon)[https://fontawesome.com/v5.15/icons/youtube?style=brands]
-  - Pinterest Icon <i class="fab fa-pinterest"></i> (link to icon)[https://fontawesome.com/v5.15/icons/pinterest?style=brands]
+  - Favicon Icon: Icon class: <i class="fas fa-swimmer"></i> [link to icon](https://fontawesome.com/v5.15/icons/swimmer?style=solid)
+  - Facebook Icon: <i class="fab fa-facebook"></i> [link to icon](https://fontawesome.com/v5.15/icons/facebook-square?style=brands)
+  - Twitter Icon: <i class="fab fa-twitter"></i> [link to icon](https://fontawesome.com/v5.15/icons/twitter?style=brands)
+  - Instagram Icon <i class="fab fa-instagram"></i> [link to icon](https://fontawesome.com/v5.15/icons/instagram?style=brands)
+  - Youtube Icon <i class="fab fa-youtube"></i> [link to icon](https://fontawesome.com/v5.15/icons/youtube?style=brands)
+  - Pinterest Icon <i class="fab fa-pinterest"></i> [link to icon](https://fontawesome.com/v5.15/icons/pinterest?style=brands)
 
 
 ### Imagery
@@ -357,8 +364,8 @@ All images can be found on Pixabay and Pexels,
 
 A list of images and their respective links are:
 
-   - Header Image: (link)[https://www.pexels.com/photo/person-swimming-on-body-of-water-863988/]
-   - Swimmer Image (link)[https://pixabay.com/photos/swimming-swimmer-female-race-78112/]
-   - Fitness Image (link)[https://pixabay.com/photos/swimmers-swimming-pool-olympic-pool-79592/]
-   - Contact Image (link)[https://www.pexels.com/photo/person-swimming-in-body-of-water-1263348/]
-   - Footer Image (link)[https://www.pexels.com/photo/people-doing-swim-race-1263349/]
+   - Header Image: [link](https://www.pexels.com/photo/person-swimming-on-body-of-water-863988/)
+   - Swimmer Image [link](https://pixabay.com/photos/swimming-swimmer-female-race-78112/)
+   - Fitness Image [link](https://pixabay.com/photos/swimmers-swimming-pool-olympic-pool-79592/)
+   - Contact Image [link](https://www.pexels.com/photo/person-swimming-in-body-of-water-1263348/)
+   - Footer Image [link](https://www.pexels.com/photo/people-doing-swim-race-1263349/)
