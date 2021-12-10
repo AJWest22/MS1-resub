@@ -313,15 +313,15 @@ This code has been run through a HTML validator and CSS Validator.
 
 This code has been [here](https://validator.w3.org/) and came back with positive results with only a few suggestions such as the JavaScript file not needing a type text
 
-<img src="images/html-validation.png">
+<img src="images/html-validation.jpg">
 
-<img src="images/html-validation2.png">
+<img src="images/html-validation2.jpg">
 
 ### CSS Validation
 
 This code has been tested [here](https://jigsaw.w3.org/css-validator/) and found a handful of errors.
 
-<img src="images/css-validation.png">
+<img src="images/css-validation.jpg">
 
 ### Browser Compatibility
 
